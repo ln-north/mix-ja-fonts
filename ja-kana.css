@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Noto Serif Kana';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/Noto_Serif_JP/NotoSerifJP-Medium.otf) format('opentype');
+  unicode-range: U+3040-309F, U+30A0-30FF, U+3001, U+3002; /* ひらがな・カタカナ・句読点 */
+}
+
+@font-face {
+  font-family: 'Noto Serif Kana';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/Noto_Serif_JP/NotoSerifJP-Bold.otf) format('opentype');
+  unicode-range: U+3040-309F, U+30A0-30FF, U+3001, U+3002; /* ひらがな・カタカナ・句読点 */
+}

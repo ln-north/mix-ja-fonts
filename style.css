@@ -1,0 +1,42 @@
+html, body {
+    font-family: "Besley", "Noto Serif Kana", "Noto Sans", sans-serif;
+}
+
+html {
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin-right: -6vh;
+}
+
+main {
+    font-size: calc((100vh - 10vh) / 31);
+    line-height: 1.75;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-left: 2vh;
+}
+
+h1, h2, a {
+    all: unset;
+    display: block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: calc((100vh - 10vh) / 31);
+    margin-bottom: 2vh;
+}
+
+h2 {
+    font-size: calc((100vh - 10vh) / 31 / 1.8);
+}

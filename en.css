@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Besley';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/Besley/static/Besley-Regular.ttf) format('truetype');
+}
